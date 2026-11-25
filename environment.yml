@@ -1,6 +1,29 @@
-name: mlops
+name: base
 channels:
   - defaults
 dependencies:
-  - python=3.12
-prefix: /home/codespace/anaconda3/envs/mlops
+  - _anaconda_depends
+  - python=3.13
+  - setuptools
+  - pip
+  - wheel
+  - anaconda-anon-usage
+  - anaconda-catalogs
+  - anaconda-client
+  - anaconda-project
+  - anaconda-navigator
+  - conda[version='>=25.11.1']
+  - conda-anaconda-telemetry[version='>=0.3.0']
+  - conda-anaconda-tos[version='>=0.2.2']
+  - conda-build[version='>=25.11.1']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - conda-pack
+  - conda-package-handling
+  - conda-package-streaming
+  - anaconda-auth
+  - ipykernel
+  - pyarrow
+  - pandas
+  - jupyterlab
+prefix: /home/saddam/anaconda3
